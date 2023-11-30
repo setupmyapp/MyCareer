@@ -1,0 +1,42 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: TRACKING-SERVICE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/careerdb?createDatabaseIfNotExist=true&autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: root123
+    initialization-mode: always
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  flyway:
+    enabled: false
+    locations: classpath:db/migration
+  servlet:
+    multipart:
+      max-file-size: 2048KB
+      max-request-size: 2048KB
+  output:
+  ansi:
+    enabled: DETECT
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-register: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+logging:
+  file.name: logs/tracking-service.log

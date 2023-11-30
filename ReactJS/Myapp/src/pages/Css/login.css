@@ -1,0 +1,21 @@
+/* .password-toggle-icon { */
+  /* display: flex;
+  align-items: center;
+  position: absolute;
+  height: 137%;
+  /* top: 2px; */
+  /* right: 15px; */
+  /* padding-right: 20px;
+  cursor: pointer; */ 
+/* } */
+
+.password-toggle3-icon {
+position: absolute;
+  top: 72%;
+  right: 19%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1000; 
+  
+}
+

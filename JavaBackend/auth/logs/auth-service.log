@@ -1,0 +1,171 @@
+2023-11-30 12:38:59.893  INFO 3248 --- [main] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_361 on DESKTOP-IBOQ22A with PID 3248 (C:\Users\Administrator\Repo\MyCarrer\JavaBackend\auth\target\classes started by Administrator in C:\Users\Administrator\Repo\MyCarrer\JavaBackend\auth)
+2023-11-30 12:38:59.924  INFO 3248 --- [main] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2023-11-30 12:39:03.444  INFO 3248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 12:39:04.519  INFO 3248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 769 ms. Found 3 JPA repository interfaces.
+2023-11-30 12:39:05.568  INFO 3248 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=cec07521-f06c-3a8e-a035-912b3a8a2a36
+2023-11-30 12:39:07.930  INFO 3248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-11-30 12:39:07.970  INFO 3248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-30 12:39:07.971  INFO 3248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-11-30 12:39:08.757  INFO 3248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-30 12:39:08.758  INFO 3248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8585 ms
+2023-11-30 12:39:09.476  INFO 3248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 12:39:09.831  INFO 3248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-30 12:39:10.709  INFO 3248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-30 12:39:11.387  INFO 3248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30 12:39:12.082  INFO 3248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30 12:39:12.160  INFO 3248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-30 12:39:15.949  INFO 3248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-30 12:39:15.991  INFO 3248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 12:39:19.001  WARN 3248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 12:39:19.822  INFO 3248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b9dd787, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3545c913, org.springframework.security.web.context.SecurityContextPersistenceFilter@1828ab51, org.springframework.security.web.header.HeaderWriterFilter@2eb31735, org.springframework.web.filter.CorsFilter@5d00e30e, org.springframework.security.web.authentication.logout.LogoutFilter@1fe37d27, com.ifocus.auth.security.AuthTokenFilter@1c879f07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@589a4305, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7568134c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cdc5155, org.springframework.security.web.session.SessionManagementFilter@7156f8cf, org.springframework.security.web.access.ExceptionTranslationFilter@565030b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37ad818e]
+2023-11-30 12:39:19.856  WARN 3248 --- [main] o.s.s.c.a.web.builders.WebSecurity       : 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2023-11-30 12:39:22.622  INFO 3248 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-11-30 12:39:24.294  WARN 3248 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-30 12:39:24.381  INFO 3248 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-11-30 12:39:24.819  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-11-30 12:39:24.841  INFO 3248 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 12:39:24.976  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-30 12:39:24.977  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-30 12:39:24.977  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-30 12:39:24.978  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-30 12:39:24.978  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-30 12:39:24.978  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-11-30 12:39:24.979  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-30 12:39:26.900  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-30 12:39:26.909  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-11-30 12:39:26.918  INFO 3248 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-30 12:39:26.937  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701328166929 with initial instances count: 1
+2023-11-30 12:39:26.945  INFO 3248 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVICE with eureka with status UP
+2023-11-30 12:39:26.948  INFO 3248 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701328166948, current=UP, previous=STARTING]
+2023-11-30 12:39:26.955  INFO 3248 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091: registering service...
+2023-11-30 12:39:27.051  INFO 3248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-11-30 12:39:27.053  INFO 3248 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9091
+2023-11-30 12:39:27.138  INFO 3248 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - registration status: 204
+2023-11-30 12:39:27.659  INFO 3248 --- [main] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 30.652 seconds (JVM running for 32.801)
+2023-11-30 12:41:22.988  INFO 3248 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 12:41:22.988  INFO 3248 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-30 12:41:22.994  INFO 3248 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-11-30 12:41:23.026  INFO 3248 --- [http-nio-9091-exec-1] Spring Security Debugger                 : 
+
+************************************************************
+
+Request received for POST '/user/NoAuth/loginUser':
+
+org.apache.catalina.connector.RequestFacade@599c880a
+
+servletPath:/user/NoAuth/loginUser
+pathInfo:null
+headers: 
+content-type: application/json
+user-agent: PostmanRuntime/7.34.0
+accept: */*
+postman-token: 7f303ad9-afde-49a4-b6dc-51fa3e89f5eb
+accept-encoding: gzip, deflate, br
+content-length: 69
+forwarded: proto=http;host="localhost:8762";for="[0:0:0:0:0:0:0:1]:55074"
+x-forwarded-for: 0:0:0:0:0:0:0:1
+x-forwarded-proto: http
+x-forwarded-port: 8762
+x-forwarded-host: localhost:8762
+host: localhost:9091
+
+
+Security filter chain: [
+  DisableEncodeUrlFilter
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  CorsFilter
+  LogoutFilter
+  AuthTokenFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2023-11-30 12:44:24.998  INFO 3248 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 12:49:25.013  INFO 3248 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 12:54:25.028  INFO 3248 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 12:59:25.039  INFO 3248 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 13:01:37.702  INFO 3248 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-SERVICE with eureka with status DOWN
+2023-11-30 13:01:37.703  INFO 3248 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701329497703, current=DOWN, previous=UP]
+2023-11-30 13:01:37.704  INFO 3248 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091: registering service...
+2023-11-30 13:01:37.746  INFO 3248 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - registration status: 204
+2023-11-30 13:01:38.317  INFO 3248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:01:38.330  INFO 3248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-30 13:01:38.363  INFO 3248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-30 13:01:38.365  INFO 3248 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-11-30 13:01:41.379  INFO 3248 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-11-30 13:01:41.419  INFO 3248 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - deregister  status: 200
+2023-11-30 13:01:41.431  INFO 3248 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-11-30 13:03:50.686  INFO 6492 --- [main] tionAuthorizationServiceApplicationTests : Starting AuthenticationAuthorizationServiceApplicationTests using Java 1.8.0_361 on DESKTOP-IBOQ22A with PID 6492 (started by Administrator in C:\Users\Administrator\Repo\MyCarrer\JavaBackend\auth)
+2023-11-30 13:03:50.690  INFO 6492 --- [main] tionAuthorizationServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-11-30 13:03:54.544  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 13:03:55.692  INFO 6492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 993 ms. Found 3 JPA repository interfaces.
+2023-11-30 13:03:57.086  INFO 6492 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ce08908-4267-3673-8b70-de02a8e66bd4
+2023-11-30 13:03:59.533  INFO 6492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 13:03:59.818  INFO 6492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-30 13:04:00.716  INFO 6492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-30 13:04:02.753  INFO 6492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-30 13:04:03.711  INFO 6492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-30 13:04:03.829  INFO 6492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-30 13:04:07.541  INFO 6492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-30 13:04:07.579  INFO 6492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:04:12.123  WARN 6492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 13:04:14.517  INFO 6492 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@511de4dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37e64e37, org.springframework.security.web.context.SecurityContextPersistenceFilter@b267745, org.springframework.security.web.header.HeaderWriterFilter@60e67c06, org.springframework.web.filter.CorsFilter@31204303, org.springframework.security.web.authentication.logout.LogoutFilter@50fa5938, com.ifocus.auth.security.AuthTokenFilter@1e57b783, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ebf524, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@799971ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@369fb99a, org.springframework.security.web.session.SessionManagementFilter@30e143ff, org.springframework.security.web.access.ExceptionTranslationFilter@3c2dda7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23d060c2]
+2023-11-30 13:04:14.546  WARN 6492 --- [main] o.s.s.c.a.web.builders.WebSecurity       : 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2023-11-30 13:04:17.823  INFO 6492 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-11-30 13:04:19.915  WARN 6492 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-30 13:04:20.527  INFO 6492 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-11-30 13:04:20.971  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-11-30 13:04:21.011  INFO 6492 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-11-30 13:04:21.145  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-11-30 13:04:21.156  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-11-30 13:04:21.157  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-11-30 13:04:21.161  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-11-30 13:04:21.161  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-11-30 13:04:21.162  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-11-30 13:04:21.162  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-11-30 13:04:25.036  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-11-30 13:04:25.055  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-11-30 13:04:25.077  INFO 6492 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-30 13:04:25.171  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1701329665090 with initial instances count: 1
+2023-11-30 13:04:25.192  INFO 6492 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVICE with eureka with status UP
+2023-11-30 13:04:25.194  INFO 6492 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701329665194, current=UP, previous=STARTING]
+2023-11-30 13:04:25.199  INFO 6492 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091: registering service...
+2023-11-30 13:04:25.257  INFO 6492 --- [main] tionAuthorizationServiceApplicationTests : Started AuthenticationAuthorizationServiceApplicationTests in 36.876 seconds (JVM running for 42.029)
+2023-11-30 13:04:25.607  INFO 6492 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - registration status: 204
+2023-11-30 13:04:26.038  INFO 6492 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-SERVICE with eureka with status DOWN
+2023-11-30 13:04:26.039  INFO 6492 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1701329666039, current=DOWN, previous=UP]
+2023-11-30 13:04:26.040  INFO 6492 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091: registering service...
+2023-11-30 13:04:26.056  INFO 6492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:04:26.070  INFO 6492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-30 13:04:26.073  INFO 6492 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - registration status: 204
+2023-11-30 13:04:26.100  INFO 6492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-30 13:04:26.102  INFO 6492 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-11-30 13:04:29.106  INFO 6492 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-11-30 13:04:29.170  INFO 6492 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVICE/DESKTOP-IBOQ22A:AUTHENTICATION-SERVICE:9091 - deregister  status: 200
+2023-11-30 13:04:29.181  INFO 6492 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

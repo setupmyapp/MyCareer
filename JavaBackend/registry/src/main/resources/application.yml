@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  output:
+  ansi:
+    enabled: DETECT
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-register: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+
+logging:
+  file.name: logs/registry-service.log

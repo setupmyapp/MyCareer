@@ -1,0 +1,18 @@
+/* feedback.css */
+
+/* ... your existing CSS ... */
+
+/* For Feedbacks component */
+.feedbacks-cards {
+  border-radius: 25px;
+  border: 1px solid #e683e6bb;
+  box-shadow: 0px 4px 10px rgba(108, 103, 103, 0.2);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.feedbacks-cards:hover {
+  background-color: darkpurple;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}

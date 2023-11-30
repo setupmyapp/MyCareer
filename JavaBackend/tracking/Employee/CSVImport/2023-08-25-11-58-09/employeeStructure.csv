@@ -1,0 +1,11 @@
+employeeId,firstName,lastName,emailId,contactNo,areAM,underAM,middleName,birthDate,designation,totalExperience,experienceBySkills,joiningDate,lastWorkingDate,previousAppraisalDate,appraisalDueDate,bandGrade,costCenterName,costCenterComment,departmentName,nameRM,emailRM,contactRM,hasHRApproved,areBillable
+20150462,Krishnaraja,Varna,krishnaraja.varna@ifocussystec.com,9844551300,TRUE,,,,,,,,,,,,,,,,,,,TRUE
+20150483,Shreeranjini,H N,shreeranjini.hn@ifocussystec.com,9972454292,TRUE,,,,,,,,,,,,,,,,,,,TRUE
+20221398,Pavithra,P,pavithra.p@ifocussystec.com,9535121978,TRUE,,,,,,,,,,,,,,,,,,,TRUE
+Consultant 409,Abhishek,,abhishek@ifocussystec.com,7348941489,FALSE,20150462,,,,,,,,,,,,,,,,,,TRUE
+20221325,Shwetha,B N,shwetha.bn@ifocussystec.com,9108396635,FALSE,20150462,,,,,,,,,,,,,,,,,,TRUE
+20160605,Kumar,R,kumar.r@ifocussystec.com,9980811118,FALSE,20150462,,,,,,,,,,,,,,,,,,TRUE
+20231410,Amith,Kumar B Paraddi,amith.paraddi@ifocussystec.com,9742268888,FALSE,20221398,,,,,,,,,,,,,,,,,,TRUE
+20180832,Vinay,NM,vinay.nm@ifocussystec.com,9739216369,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE
+Consultant 360,Jenifar,Azim,jenifar.azim@ifocussystec.com,8638284798,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE
+Consultant 401,Vipriti,Nayak,vipriti.n@ifocussystec.com,7061922950,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE

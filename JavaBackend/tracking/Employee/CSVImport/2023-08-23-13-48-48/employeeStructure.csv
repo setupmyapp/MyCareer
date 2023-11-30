@@ -1,0 +1,4 @@
+employeeId,firstName,lastName,emailId,contactNo,areAM,underAM,middleName,birthDate,designation,totalExperience,experienceBySkills,joiningDate,lastWorkingDate,previousAppraisalDate,appraisalDueDate,bandGrade,costCenterName,costCenterComment,departmentName,nameRM,emailRM,contactRM,hasHRApproved,areBillable
+20180832,Vinay,NM,vinay.nm@ifocussystec.com,9739216369,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE
+Consultant 360,Jenifar,Azim,jenifar.azim@ifocussystec.com,8638284798,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE
+Consultant 401,Vipriti,Nayak,vipriti.n@ifocussystec.com,7061922950,FALSE,20150483,,,,,,,,,,,,,,,,,,TRUE

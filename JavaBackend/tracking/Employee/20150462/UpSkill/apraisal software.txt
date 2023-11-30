@@ -1,0 +1,78 @@
+login 
+->import option(userid,email)(initial login change password).
+
+
+user panels 
+
+super admin
+admin(try based on role)
+employee
+Manager
+
+user
+dashboar(skill update,kpi)
+side menus(profile(once submitted they canot edit),upskilling((basic form) submit(based on admin edit access)exp added by admin),Appraisal(previos dates next appraisal and there elgiblty in percentage),
+,customer feedback(hr feedback should be shown dates),KPI(history and current one also i should submit),Settings(change password)
+
+Super admin
+Dashboard(no of employees,no of exists,no of joining,aprasisal due for this month,previous pending apraisals,whole avaerage band,year,monthly,quaterly(graph in template)),,(bands based on experience on click show table))
+side menus
+->employess (employee info approve option for the first time ,edit always)
+->cutomer feedback(first employee->triger mail,->manager feedback(own mail)->ifocus feedback,)
+->apraisal (show percentage, edit percentage,save).
+->admin(crud admins)
+->Account manager(crud)
+
+Account Manager (only his employees)
+Dashboard(no of employees,no of exists,no of joining,aprasisal due for this month,previous pending apraisals,whole avaerage band,year,monthly,quaterly(graph in template)),,(bands based on experience on click show table))
+side menus
+->cutomer feedback(first employee->triger mail)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fields
+for profile
+Fields on Career App
+Name
+Employee ID
+Email ID
+Contact no
+Designation
+Total Exp
+Band
+Job Family
+Skill based exp (multiple Drop down list)
+Cost center(drop down and should be always in the list)
+Account Manager
+Reporting Manager Name
+Reporting Manager Email ID
+Reporting Manager Contact
+Previous Appraisal date
+Appraisal Due date
+
+upskilling
+Platform 
+course name 
+duration
+fee 
+start date and end date 
+
+technology 
+frontend React (17.6)
+Backend spring boot (2.5)- micro service,api gateway ,eureka monitor
+mysql 
+
+

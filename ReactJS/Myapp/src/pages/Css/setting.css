@@ -1,0 +1,35 @@
+/* .password-input-wrapper {
+    position: relative;
+  } */
+  
+  .password-toggle1-icon {
+    position:absolute;
+  top: 55%;
+  right:  10%; 
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 100;
+  }
+  .is-match {
+    border-color: green; 
+  }
+  
+  .is-mismatch {
+    border-color: red;
+  }
+  .password-toggle2-icon {
+   position: absolute;
+   top: 50%;
+   right: 10%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    z-index: 100;
+  }
+
+  
+  
+  .invalid-border {
+    border:  red;
+  }
+
+  

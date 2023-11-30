@@ -1,0 +1,22 @@
+.directory-card {
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .directory-card:hover {
+    /* transform: scale(1.05);
+      box-shadow: 0 0 10px #000000;
+    cursor: pointer; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+   
+    cursor: pointer;
+  }
+  .custom-card {
+    margin:2px;
+  }
+  .custom-img {
+  
+    overflow: hidden;
+    border-radius: 50%;
+  }
